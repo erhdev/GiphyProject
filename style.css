@@ -1,4 +1,29 @@
+#search-input {
+    background-color: aliceblue;
+    align-content: center;
+    width: 50%;
+}
+body {
+    background-image: url(bckgrnd.jpg);
+    width: 100%;
+    height: 100%;
+    align-content: center
+}
 .generated-gif {
     width: 275px;
     height: 275px;
 }
+.card{
+    width: 275px;
+    float: left;
+    margin: 2%;
+    border: 2px solid darkgreen; 
+    background-color: blanchedalmond;
+}
+
+#title {
+    background-color: seagreen;
+    text-align: center;
+    font-family: fantasy 
+}
+
