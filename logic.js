@@ -8,7 +8,7 @@ $('#search-button').on('click', function(){
     $('.buttons').on('click', function() {
         $('.card').remove();
         var clickQuery = $(event.target).attr('data-name');
-        var buttonGiphys ='http://api.giphy.com/v1/gifs/search?' +
+        var buttonGiphys ='https://api.giphy.com/v1/gifs/search?' +
                            '&q=' + clickQuery +
                            '&api_key=ARyNec98GC4bQ2lTrznDQjoDX4mZY9az&limit=10';
          $.ajax({
@@ -46,7 +46,7 @@ $('#search-button').on('click', function(){
 $('.buttons').on('click', function() {
     $('.card').remove();
     var clickQuery = $(event.target).attr('data-name');
-    var buttonGiphys ='http://api.giphy.com/v1/gifs/search?' +
+    var buttonGiphys ='https://api.giphy.com/v1/gifs/search?' +
                        '&q=' + clickQuery +
                        '&api_key=ARyNec98GC4bQ2lTrznDQjoDX4mZY9az&limit=10';
      $.ajax({
